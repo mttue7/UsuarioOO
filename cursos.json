@@ -1,1 +1,6 @@
-{"_default": {"1": {"nome_curso": "engenharia comp", "descricao": "programa\u00e7\u00e3o e afins"}, "2": {"nome_curso": "engenharia quimica", "descricao": "quimica e afins"}, "3": {"nome_curso": "engenharia civil", "descricao": "s\u00f3 os loucos"}, "4": {"nome_curso": "psicologia", "descricao": "psico e afins"}, "5": {"nome_curso": "gastronomia", "descricao": "s\u00f3 guloseima"}}}
+{"_default": {"1": {"nome_curso": "engenharia comp", "descricao": "programa\u00e7\u00e3o e afins"}, 
+"2": {"nome_curso": "engenharia quimica", "descricao": "quimica e afins"}, 
+"3": {"nome_curso": "engenharia civil", "descricao": "s\u00f3 os loucos"}, 
+"4": {"nome_curso": "psicologia", "descricao": "psico e afins"}, 
+"5": {"nome_curso": "gastronomia", "descricao": "s\u00f3 guloseima"}, 
+"6": {"nome_curso": "ADM", "descricao": "noias e sem ambi\u00e7\u00e3o"}}}

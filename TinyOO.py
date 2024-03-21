@@ -20,6 +20,12 @@ def adicionar_aluno():
     nome = input("Digite o nome do aluno: ")
     idade = int(input("Digite a idade do aluno: "))
     matricula = input("Digite a matrícula do aluno: ")
+
+    # Verifica se a matrícula já está em uso
+    if db_alunos.search(Query().matricula == matricula):
+        print(f"A matrícula '{matricula}' já está em uso.")
+        return
+    
     curso_id = input("Digite o ID do curso que o aluno está matriculado: ")
     
     # Verifica se o curso existe no banco de dados de cursos
@@ -30,6 +36,7 @@ def adicionar_aluno():
     aluno = Aluno(nome, idade, matricula, curso_id)
     db_alunos.insert({'nome': aluno.nome, 'idade': aluno.idade, 'matricula': aluno.matricula, 'curso_id': aluno.curso_id})
     print(f"Aluno '{nome}' adicionado com sucesso.")
+
 
    # Função para adicionar um curso a um aluno existente
 def adicionar_curso_para_aluno_existente():
